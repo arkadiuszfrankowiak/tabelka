@@ -27,6 +27,8 @@ $(document).ready(function () {
 	Koloruj();
 
 
+
+
 	$(document).on('click', '.add-tr', function () {
 		$('#tabela tbody').append(Rysuj('kolumna 1', 'kolumna 2'));
 		Koloruj();
